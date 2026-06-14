@@ -11,6 +11,7 @@ function creaNome(nome) {
 
     let x = document.createElement("button");
     x.textContent = "X";
+    x.classList.add("btn-x");
     x.style.display = "none";
     x.addEventListener("click", function() {
         p.remove();
@@ -36,7 +37,7 @@ btn.addEventListener("click", function() {
 
 cancella.addEventListener("click", function() {
     modalitaElimina = !modalitaElimina;
-    let bottoniX = document.querySelectorAll("#lista button");
+    let bottoniX = document.querySelectorAll(".btn-x");
     bottoniX.forEach(function(x) {
         x.style.display = modalitaElimina ? "inline" : "none";
     });
