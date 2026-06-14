@@ -1,0 +1,44 @@
+:root {
+    --primary: #250909;
+    --secondary: #940d0d;
+
+}
+
+
+body {
+    background-color: var(--primary);
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    font-family: sans-serif;
+}
+
+#lista {
+    background: var(--secondary);
+    padding: 2rem;
+    border-radius: 12px;
+    width: 400px;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 6px;
+    border: none;
+}
+
+button {
+    padding: 8px 16px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+    background: var(--primary);
+    color: white;
+}
+
+p {
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
